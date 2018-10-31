@@ -1,0 +1,27 @@
+import sun.misc.Queue;
+
+public class MainQueueString {
+
+
+
+	public static void main(String[] args) {
+
+		QueueString q = new QueueString();
+
+		q.cetak();
+
+		
+
+		q.insert("DICKY");q.cetak();
+
+		q.insert("WAISULQARNI");q.cetak();
+
+		q.insert("DIKI");q.cetak();
+
+		q.insert("DINA");q.cetak();
+
+
+
+	}
+
+}

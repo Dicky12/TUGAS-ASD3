@@ -1,0 +1,35 @@
+
+
+import java.util.ArrayList;
+
+public class ArrayListObject {
+
+
+
+	public static void main(String[] args) {
+
+	ArrayList<Mahasiswa> Data = new ArrayList<Mahasiswa>();
+
+	Data.add(new Mahasiswa("", "D0217502", "A", "LEMBANG"));
+
+	Data.add(new Mahasiswa("DINA", "D0217091", "A", "LEMBANG"));
+
+		
+
+	Data.forEach(data ->{
+
+	System.out.println("NAMA   : "+data.getNama());
+
+	System.out.println("NIM    : "+data.getNim());
+
+	System.out.println("KELAS  : "+data.getKelas());
+
+	System.out.println("ALAMAT : "+data.getAlamat());	
+
+	System.out.println(" ")
+
+	});
+
+	}
+
+}
